@@ -1,0 +1,28 @@
+{
+    "name": "slim-starter",
+    "description": "A Slim Framework skeleton application for rapid development based on Josh Lockhart's Slim-Skeleton",
+    "keywords": ["microframework","rest","router"],
+    "homepage": "http://github.com/bweave/Slim-Starter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Weaver",
+            "email": "brian.weaver@rootradius.com",
+            "homepage": "http://code.bwdrums.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "monolog/monolog": "1.*",
+        "slim/slim": "2.*",
+        "slim/views": "0.*",
+        "twig/twig": "1.*",
+        "illuminate/database": "4.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "classmap": ["models"]
+    }
+}
