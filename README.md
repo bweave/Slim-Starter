@@ -1,4 +1,6 @@
-# Slim Starter based on Slim Framework Skeleton Application by Josh Lockhart
+# Slim Starter
+
+Based on Slim Framework Skeleton Application by Josh Lockhart
 
 **My Additions**:
 
